@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid #153E5E;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #EDA311;
+}
+
+input[type=number] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid #153E5E;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=number]:focus {
+  border: 3px solid #EDA311;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  font: 100% normal Arial, Helvetica, sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+}
+
+.textItself a {
+  text-decoration: none;
+  color: #153E5E;
+  background: #EDA311;
+}
+
+.navUl a{
+  text-decoration: none;
+  color: #153E5E;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.navUl li:nth-child(2) {
+  margin-left: 690px;
+}
+
+.navUl{
+  display: flex;
+  justify-content: flex-end;
+  width: 1050px;
+  background: #EDA311;
+  color: #153E5E;
+  height: auto;
+  letter-spacing:0.1em;
+  text-align:center;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 1rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.navBar{
+  width: 1050px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
+
+button[disabled]{
+  opacity: 0.1;
+  transition: 1s;
+}
+
+.subBtn{
+  height: 45.33px;
+  width: 20px;
+  color: #EDA311;
+  background: #153E5E;
+  border: 3px solid #153E5E;
+  outline: none;
+}
+
+.btn {
+  color: #EDA311;
+  background-color: #153E5E;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #153E5E;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 1.4rem;
+  font-variant: small-caps;
+  transition: 1s;
+  box-shadow: 5px 5px #9ba9ba;
+}
+.btn:first-letter{
+  text-transform: uppercase;
+}
+
+.banerFrame {
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+
+.btnFrame {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageOneText{
+  padding: 25px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textItself{
+  color: #424242;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 20px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 14pt;
+  font-variant: small-caps;
+}
+
+.textItself:first-letter{
+  text-transform: uppercase;
+}
+
+.textItselfH{
+  color: #424242;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 20px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-variant: small-caps;
+}
+
+.textItselfH:first-letter{
+  text-transform: uppercase;
+}
+
+
+.page2InpFrame{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.container4threeInp {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inpStyle {
+  width: 30%;
+  position: relative;
+}
+
+.chartStyle{
+  width: 50%;
+}
+
+.circle {
+  margin: 25px 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: #153E5E;
+  color: #EDA311;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.circleTxt{
+  color: #EDA311;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+.circleTxt:first-letter{
+  text-transform: uppercase;
+}
+.circleFrame {
+  padding: 25px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.randomFrame{
+  height: 300px;
+}
+
+.btnAdd {
+  color: #EDA311;
+  background-color: #153E5E;
+  padding: 10px;
+  width: 222.67px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #153E5E;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 0 auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 1.1rem;
+  font-variant: small-caps;
+  box-shadow: 5px 5px #9ba9ba;
+}
+.btnAdd:first-letter{
+  text-transform: uppercase;
+}
+
