@@ -51,8 +51,8 @@ ul li {
   margin-left: 10px;
   margin-right: 20px; }
 
-.navUl li:nth-child(2) {
-  margin-left: 690px; }
+.navUl span {
+  margin-right: 640px; }
 
 .navUl {
   display: flex;
